@@ -1,0 +1,69 @@
+/* Contact.css */
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-title {
+  color: #d35400; /* Indian saffron color */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  color: #3498db; /* Royal blue color */
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  color: #e74c3c; /* Vermilion color */
+  font-size: 1.2rem;
+  text-align: left; /* Align label text to the left */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #dcdde1; /* Cloud burst color */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #27ae60; /* Dark pastel green color */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info h2 {
+  color: #e74c3c; /* Vermilion color */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  color: #7f8c8d; /* Shark color */
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
