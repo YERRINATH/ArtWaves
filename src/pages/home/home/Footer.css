@@ -1,0 +1,76 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 30px auto;
+}
+
+.social-icon {
+    color: #fff;
+}
+
+
+.social-icons li {
+    vertical-align: top;
+    display: inline-block; /* Changed from inline to inline-block */
+    height: 100px;
+    margin-right: 20px; /* Increased gap between icons */
+}
+
+.social-icons li:last-child {
+    margin-right: 0; /* No margin for the last icon */
+}
+
+.social-icons a {
+    color: #45e2da;
+    text-decoration: none;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-rss,
+.fa-youtube,
+.fa-linkedin,
+.fa-github {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+.fa-instagram:hover {
+    background-color: #f77016a9; 
+}
