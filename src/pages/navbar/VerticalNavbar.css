@@ -1,0 +1,60 @@
+
+/* RotatingLogos.css */
+.rotating-logos-container {
+  position: relative;
+  width: 700px; /* Adjust the container size as needed */
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  width: 50px;  /* Adjust the logo size as needed */
+  height: 50px;
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.logo-0 { transform: rotate(0deg) translate(300px) rotate(0deg); }
+.logo-1 { transform: rotate(45deg) translate(300px) rotate(-45deg); }
+.logo-2 { transform: rotate(90deg) translate(300px) rotate(-90deg); }
+.logo-3 { transform: rotate(135deg) translate(300px) rotate(-135deg); }
+.logo-4 { transform: rotate(180deg) translate(300px) rotate(-180deg); }
+.logo-5 { transform: rotate(225deg) translate(300px) rotate(-225deg); }
+.logo-6 { transform: rotate(270deg) translate(300px) rotate(-270deg); }
+.logo-7 { transform: rotate(315deg) translate(300px) rotate(-315deg); }
+
+.hover-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 250, 250, 0.8); /* Semi-transparent background */
+  border-radius: 50%;
+  text-align: center;
+}
+
+.hover-image {
+  width: 250px; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+.hover-text {
+  font-size: 16px; /* Adjust as needed */
+  color: #000;
+}

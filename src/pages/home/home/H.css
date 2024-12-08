@@ -1,0 +1,80 @@
+/* Styles for Scrollable Cards */
+.scrollable-cards-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  width: 100%; /* Set the width to 100% */
+  margin: 0 auto;
+  padding: 20px 0; /* Adjust padding as needed */
+  animation: scrollCards 20s linear infinite; /* Adjust duration based on number of cards */
+  border: none;
+}
+
+
+/* Keyframes for the scroll animation */
+@keyframes scrollCards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-220px * 12)); /* Adjust the distance based on the number of cards */
+  }
+}
+
+.scrollable-card {
+  flex: 0 0 auto;
+  width: 200px; /* Set width of individual card */
+  height: 150px; /* Set height of individual card */
+  margin-right: 10px; /* Adjust margin between cards */
+  border-radius: 5px; /* Add border radius */
+  padding: 20px; /* Add padding */
+  box-sizing: border-box; /* Include padding in the width */
+  border: none;
+}
+
+/* Adjust spacing for the last card in the container */
+.scrollable-card:last-child {
+  margin-right: 0;
+}
+
+/* Ensure proper display for flex items */
+.scrollable-card {
+  flex-shrink: 0;
+}
+
+/* Hide scrollbar */
+.scrollable-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .scrollable-card {
+    width: calc(100% - 20px);
+    margin-right: 0;
+  }
+  .scrollable-cards-container {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}
+
+.custom-slider {
+  padding: 20px;
+}
+
+.slick-slide {
+  margin: 0 6.9px; /* Adjust this value for spacing between cards */
+}
+
+.slider-container {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-container * {
+  border: none;
+}
+.homepage-container CompareContainer {
+  border: none;
+}
