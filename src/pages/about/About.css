@@ -1,0 +1,55 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+  padding: 30px;
+  }
+  
+  .about-title {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    color: #34495e;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item {
+    flex: 1;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-item h2 {
+    color: #3498db;
+    font-size: 1.2rem;
+  }
+  
+  .about-community,
+  .about-invitation {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Add hover effects or animations */
+  .feature-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  

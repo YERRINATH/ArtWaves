@@ -1,0 +1,126 @@
+/* General styling */
+body {
+  color: #333; /* Default text color */
+  
+}
+
+/* Navbar styling */
+.navbar {
+  backdrop-filter: blur(10px); /* Add a blur effect to the background */
+}
+
+.navbar-scrolled {
+  backdrop-filter: blur(10px); /* Add a blur effect to the background when scrolled */
+}
+
+.navbar-scroll {
+  backdrop-filter: blur(10px); /* Add a blur effect to the background when scrolled */
+}
+
+.nav-link {
+  color: #a8f663 !important; /* Change link color to white */
+  font-weight: bold; /* Make link text bold */
+}
+
+.nav-link:hover {
+  color: #00ffcc !important; /* Change link color on hover */
+}
+
+/* Home container */
+.home-container {
+  text-align: center;
+  padding: 100px;
+  background-color: #5a9cde; /* Light Grayish Blue */
+  max-height: calc(100vh); /* Adjust the value according to your navbar height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  
+}
+
+/* Title styling */
+.app-title {
+  font-size: 3rem;
+  color: #2e6a94; /* Dark Blue */
+  margin-bottom: 20px;
+  animation: bounce 1.5s ease infinite; /* Bounce animation */
+}
+
+/* Bounce animation keyframes */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Description styling */
+.app-description {
+  font-size: 1.2rem;
+  color: #555; /* Dark Gray */
+  margin-bottom: 30px;
+}
+
+/* Category container */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 500px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Individual category */
+.category {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: left;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Hover effect on category items */
+.category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Title of each category */
+.category-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Category colors */
+.art-drawing {
+  background-color: #82f60e; /* Vivid Yellow */
+  color: #2e6a94; /* Dark Blue for better contrast */
+}
+
+.document-handling {
+  background-color: #59f23e; /* Dodger Blue */
+  color: #fff; /* White text for better contrast */
+}
+
+.image-processing {
+  background-color: #f5a646; /* Light Green */
+  color: #1a1a1a; /* Darker Green for better contrast */
+}
+
+/* Category link styling */
+.category-link {
+  margin-bottom: 8px;
+  color: #3498db; /* Dark Gray for standard link color */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+/* Hover effect for links */
+.category-link:hover {
+  color: #555; /* Dark Gray on hover for better visibility */
+}

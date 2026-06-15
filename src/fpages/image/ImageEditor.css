@@ -1,0 +1,50 @@
+/* Add Bootstrap styles */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  margin-bottom: 2rem;
+}
+
+.btn-group-vertical {
+  width: 100%;
+}
+
+.btn-group-vertical .btn {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.d-flex {
+  justify-content: space-between;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem; /* Add space between images */
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+}
+
+.btn-danger {
+  margin-top: 1rem;
+}
+
+/* Add more custom styles as needed */

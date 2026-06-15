@@ -1,0 +1,61 @@
+/* SketchCanvasStyles.css */
+.CanvasContainer {
+  flex: 0 0 20%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto; /* Add this line */
+ }
+ 
+  
+  .ButtonsRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+.sketch-canvas-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+
+.ButtonContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+ }
+
+.buttons-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.settings-panel {
+  margin-top: 20px;
+}
+
+.SketchCanvasWrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.ButtonContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.ButtonsRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.SettingsPanel {
+  margin-top: 60px;
+  /* You can replace this with Bootstrap's mt-4 class */
+}
+
+
+  
